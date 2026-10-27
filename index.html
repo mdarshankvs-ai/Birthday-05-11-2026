@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff9f3" />
+    <title>For Dimple, From Darshan ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mobile-view-notice" id="mobileViewNotice" role="status">
+      <div class="mobile-notice-card">
+        <div class="mobile-notice-flower" aria-hidden="true">✿</div>
+        <div class="section-kicker">A LITTLE NOTE FOR YOU</div>
+        <h1>Made for a <em>bigger screen.</em></h1>
+        <p>
+          This little birthday world is best enjoyed on a laptop or tablet. ♡
+          Please open it on a larger screen to see everything as it was meant to
+          be seen.
+        </p>
+        <div class="mobile-notice-signoff">
+          A little patience, a little magic. ♡
+        </div>
+      </div>
+    </div>
+    <div class="login-gate" id="loginGate">
+      <div class="login-card">
+        <div class="privacy-flower">✿</div>
+        <div class="section-kicker">A LITTLE SPACE, JUST FOR YOU</div>
+        <h1>Welcome <em>back.</em></h1>
+        <p class="login-intro">A tiny personal corner is waiting for you. ♡</p>
+        <form id="loginForm" autocomplete="on">
+          <label class="login-label" for="loginEmail">Personal mail</label>
+          <input
+            id="loginEmail"
+            name="email"
+            type="email"
+            placeholder="Enter your personal mail"
+            autocomplete="username"
+            required
+          />
+          <label class="login-label" for="loginPassword">Password</label>
+          <input
+            id="loginPassword"
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+            autocomplete="current-password"
+            required
+          />
+          <button class="primary-btn login-submit" type="submit">
+            Open your little world <span>♡</span>
+          </button>
+          <div
+            class="login-feedback"
+            id="loginFeedback"
+            role="status"
+            aria-live="polite"
+          ></div>
+        </form>
+        <small class="login-footnote">Made with a little extra care. ♡</small>
+      </div>
+    </div>
+    <div class="privacy-gate" id="privacyGate">
+      <div class="privacy-card">
+        <div class="privacy-flower">✿</div>
+        <div class="section-kicker">A SMALL NOTE BEFORE YOU OPEN</div>
+        <h1>Just for <em>you.</em></h1>
+        <p>Open only when you're alone or with people you trust. ♡</p>
+        <small
+          >This little corner of the internet was made for someone
+          important.</small
+        >
+        <button class="primary-btn" id="openGateBtn">
+          Okay, it's safe to open <span>♡</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="party-poppers" id="partyPoppers" aria-hidden="true">
+      <div class="party-stream party-stream-left">
+        <span>🎉</span><span>🎊</span><span>🎉</span><span>🎊</span>
+      </div>
+      <div class="party-stream party-stream-right">
+        <span>🎊</span><span>🎉</span><span>🎊</span><span>🎉</span>
+      </div>
+    </div>
+    <div class="grain"></div>
+    <div class="floating-decor decor-one">✦</div>
+    <div class="floating-decor decor-two">♡</div>
+    <div class="floating-decor decor-three">✧</div>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Back to top"
+        ><span class="brand-mark">✿</span> a little something, from Santosh</a
+      >
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="top">
+        <button
+          class="page-back-btn"
+          data-back-for="top"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span> A tiny corner of the internet,
+            just for someone special
+          </div>
+          <h1>Hey, Dimple…<br /><em>someone special is here.</em></h1>
+          <p class="hero-sub">
+            Madam, a tiny internet adventure has been made for someone
+            important. There are clues, questionable jokes, and a little
+            surprise waiting at the end. ✨
+          </p>
+          <button class="primary-btn" id="beginBtn">
+            Start the little adventure <span>↗</span>
+          </button>
+          <div class="tiny-note">
+            <span>♡</span> best experienced with a little curiosity
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative birthday illustration">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="sunburst">✦</div>
+          <div class="hero-card">
+            <div class="mini-label">TODAY'S FORECAST</div>
+            <div class="weather-icon">☀</div>
+            <div class="forecast">100% chance<br />of something lovely</div>
+            <div class="forecast-bottom">
+              <span>good vibes</span><span>♡</span>
+            </div>
+          </div>
+          <div class="sticker sticker-heart">♡</div>
+          <div class="sticker sticker-star">✦</div>
+          <div class="sticker sticker-flower">✿</div>
+          <div class="tiny-spark spark-a">✧</div>
+          <div class="tiny-spark spark-b">✦</div>
+        </div>
+        <div class="scroll-cue"><span></span> THERE'S MORE AHEAD</div>
+      </section>
+
+      <section class="intro section-shell hidden-section step-page" id="intro">
+        <button
+          class="page-back-btn"
+          data-back-for="intro"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="section-kicker">01 / THE IMPORTANT STUFF</div>
+        <div class="intro-grid">
+          <div>
+            <h2>First things first…<br /><em>today matters.</em></h2>
+          </div>
+          <div class="intro-text">
+            <p>
+              So I made you a small internet adventure. No homework, no
+              pressure, and absolutely no difficult questions about the meaning
+              of life.
+            </p>
+            <p>
+              Just a few silly things, two questions, and one very important
+              mystery at the end. — Santosh
+            </p>
+            <div class="scribble">ready, special human? <span>→</span></div>
+          </div>
+        </div>
+        <div class="little-note-card">
+          <span class="note-icon">✉</span
+          ><span
+            >Official notice: someone important is legally required to have a
+            lovely day.<small>(This website is not a lawyer.)</small></span
+          ><span class="note-stamp">APPROVED<br />♡ BY ME</span>
+        </div>
+        <div class="next-wrap">
+          <button class="primary-btn" id="toPlaygroundBtn">
+            Let the fun begin <span>→</span>
+          </button>
+          <p>Don't worry, Madam. The questions are easy. Probably.</p>
+        </div>
+      </section>
+
+      <div
+        class="photo-marquee hidden-section"
+        id="photoMarquee"
+        aria-label="A moving strip of happy memories"
+        hidden
+      >
+        <div class="marquee-track">
+          <img src="photos/dimple-02.jpg" alt="Dimple smiling" />
+          <img src="photos/dimple-04.jpg" alt="Dimple laughing" />
+          <img src="photos/dimple-05.jpg" alt="Dimple smiling" />
+          <img src="photos/dimple-08.jpg" alt="Dimple out and about" />
+          <img src="photos/dimple-09.jpg" alt="Dimple smiling" />
+          <img src="photos/dimple-02.jpg" alt="Dimple smiling" />
+          <img src="photos/dimple-04.jpg" alt="Dimple laughing" />
+          <img src="photos/dimple-05.jpg" alt="Dimple smiling" />
+        </div>
+      </div>
+      <section
+        class="playground section-shell hidden-section step-page"
+        id="playground"
+      >
+        <button
+          class="page-back-btn"
+          data-back-for="playground"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="section-kicker">02 / THE VERY SERIOUS FUN ZONE</div>
+        <div class="center-heading">
+          <h2>A tiny test of your <em>greatness.</em></h2>
+          <p>
+            Scientific accuracy: questionable. Entertainment value: hopefully
+            excellent.
+          </p>
+        </div>
+        <div class="game-grid">
+          <article class="game-card quiz-card">
+            <div class="card-topline">
+              <span class="card-icon">🧠</span
+              ><span class="pill">TINY QUIZ</span>
+            </div>
+            <h3>Do you remember the first day we met?</h3>
+            <p class="game-prompt">
+              Think carefully, Madam… when was our first meeting? ♡
+            </p>
+            <div class="answer-list" id="quizAnswers">
+              <button
+                class="answer-btn"
+                data-answer="firstday"
+                data-correct="true"
+              >
+                10/10/2025 🥰
+              </button>
+              <button
+                class="answer-btn"
+                data-answer="chaos"
+                data-correct="false"
+              >
+                05/11/2004 🧐
+              </button>
+              <button
+                class="answer-btn"
+                data-answer="dance"
+                data-correct="false"
+              >
+                I don't remember 😔
+              </button>
+            </div>
+            <div class="game-feedback" id="quizFeedback" aria-live="polite">
+              Choose wisely. A very tiny committee is watching. ♡
+            </div>
+          </article>
+          <article class="game-card riddle-card">
+            <div class="card-topline">
+              <span class="card-icon">🪄</span
+              ><span class="pill pill-gold">SILLY RIDDLE</span>
+            </div>
+            <h3>Madam, solve this</h3>
+            <p class="game-prompt">
+              What has lots of candles but isn't a haunted house?
+            </p>
+            <div class="riddle-options">
+              <button class="answer-btn riddle-answer" data-correct="false">
+                A very committed birthday cake
+              </button>
+              <button class="answer-btn riddle-answer" data-correct="true">
+                A birthday cake 🎂
+              </button>
+              <button class="answer-btn riddle-answer" data-correct="false">
+                A dragon's electricity bill
+              </button>
+            </div>
+            <div class="game-feedback" id="riddleFeedback" aria-live="polite">
+              Take your time. The dragon is waiting.
+            </div>
+          </article>
+        </div>
+        <div class="progress-row">
+          <div class="progress-label">
+            <span>ADVENTURE PROGRESS</span
+            ><span id="progressText">0 of 2 cleared</span>
+          </div>
+          <div class="progress-track"><span id="progressFill"></span></div>
+        </div>
+        <div class="next-wrap">
+          <button class="primary-btn" id="toQuestionsBtn" disabled>
+            Next page <span>→</span>
+          </button>
+          <p id="nextHint">
+            Complete the mini quiz and riddle to unlock the next page.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="questions section-shell hidden-section step-page"
+        id="questions"
+      >
+        <button
+          class="page-back-btn"
+          data-back-for="questions"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="section-kicker">03 / TWO LITTLE QUESTIONS</div>
+        <div class="center-heading">
+          <h2>Okay, be honest… <em>ish.</em></h2>
+          <p>There are no wrong answers. (There may be dramatic reactions.)</p>
+        </div>
+        <div class="question-stack">
+          <article class="question-card" data-question="1">
+            <div class="question-number">QUESTION 01 <span>♡</span></div>
+            <h3>What's the ideal birthday plan?</h3>
+            <div class="choice-grid">
+              <button class="choice-btn">Cake first, questions later 🍰</button>
+              <button class="choice-btn">A cute little adventure 🌷</button>
+              <button class="choice-btn">
+                Comfy clothes and zero plans 🧸
+              </button>
+            </div>
+            <div class="question-response" aria-live="polite"></div>
+          </article>
+          <article class="question-card" data-question="2">
+            <div class="question-number">QUESTION 02 <span>✦</span></div>
+            <h3>One birthday wish. What's the vibe?</h3>
+            <div class="choice-grid">
+              <button class="choice-btn">More happy little moments ✨</button>
+              <button class="choice-btn">A year full of plot twists 🎬</button>
+              <button class="choice-btn">Unlimited snacks, obviously 🍓</button>
+            </div>
+            <div class="question-response" aria-live="polite"></div>
+          </article>
+        </div>
+        <div class="next-wrap">
+          <button class="primary-btn" id="questionsContinueBtn" disabled>
+            One last question… <span>→</span>
+          </button>
+          <p id="questionHint">Answer both little questions to continue.</p>
+        </div>
+      </section>
+
+      <section
+        class="final-question section-shell hidden-section step-page"
+        id="finalQuestion"
+      >
+        <button
+          class="page-back-btn"
+          data-back-for="finalQuestion"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="final-card">
+          <div class="final-flower">✿</div>
+          <div class="section-kicker">04 / THE MYSTERY QUESTION</div>
+          <h2>Madam, do you know<br /><em>what makes today special?</em></h2>
+          <p>
+            Think carefully. This question has a suspicious amount of confetti
+            attached to it.
+          </p>
+          <button class="primary-btn" id="revealBtn" type="button">
+            I have a tiny suspicion… <span>♡</span>
+          </button>
+          <div class="final-hint">
+            hint: it’s a day worth making someone feel extra special.
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="birthday-reveal section-shell hidden-section step-page"
+        id="birthdayReveal"
+      >
+        <button
+          class="page-back-btn"
+          data-back-for="birthdayReveal"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="birthday-cake-stage" aria-live="polite">
+          <div
+            class="birthday-cake"
+            id="birthdayCake"
+            role="img"
+            aria-label="A pink birthday cake with candles"
+          >
+            <div class="cake-flames">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="cake-candles"><i></i><i></i><i></i></div>
+            <div class="cake-top"></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"></div>
+            <div class="cake-plate"></div>
+          </div>
+          <p id="cakeMessage" class="cake-message">
+            Light the candles and make a wish…
+          </p>
+        </div>
+
+        <div class="birthday-wait" aria-live="polite">
+          <p class="birthday-wait-message">Be patient madam ♡</p>
+          <div class="birthday-timer-row">
+            <span class="birthdayTimerText">00:23</span>
+            <span class="birthday-timer-caption"
+              >Your memories are almost here</span
+            >
+          </div>
+          <div
+            class="birthday-timer-track"
+            role="progressbar"
+            aria-label="Time until the gallery opens"
+            aria-valuemin="0"
+            aria-valuemax="23"
+            aria-valuenow="23"
+          >
+            <span class="birthdayTimerBar"></span>
+          </div>
+        </div>
+        <div class="reveal-header">
+          <div class="section-kicker">05 / SURPRISE, YOU ✨</div>
+          <div class="confetti-word">IT'S YOUR BIRTHDAY!</div>
+          <h2>Happy birthday, <em>Dimple. ♡</em></h2>
+          <p>
+            I hope this next trip around the sun brings you soft mornings, loud
+            laughs, kind people, little adventures, and a hundred reasons to
+            smile. You deserve the good things, Madam.
+          </p>
+          <p class="reveal-extra">
+            And for the record… someone who calls me Santosh has become a pretty
+            special part of my days. I’m not making a big announcement, Madam.
+            Just saying. ♡
+          </p>
+          <div class="song-status" id="songStatus" aria-live="polite">
+            Your birthday tune starts with the mystery question. ♫
+          </div>
+        </div>
+        <div class="birthday-wait" aria-live="polite">
+          <p class="birthday-wait-message">Be patient madam ♡</p>
+          <div class="birthday-timer-row">
+            <span class="birthdayTimerText">00:23</span>
+            <span class="birthday-timer-caption"
+              >Your memories are almost here</span
+            >
+          </div>
+          <div
+            class="birthday-timer-track"
+            role="progressbar"
+            aria-label="Time until the gallery opens"
+            aria-valuemin="0"
+            aria-valuemax="23"
+            aria-valuenow="23"
+          >
+            <span class="birthdayTimerBar"></span>
+          </div>
+        </div>
+        <div class="birthday-gallery-cta" id="birthdayGalleryCta" hidden>
+          <button class="primary-btn" id="viewPrettyGalleryBtn" type="button">
+            View your Pretty Gallery <span>♡</span>
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="gallery-page section-shell hidden-section step-page"
+        id="galleryPage"
+      >
+        <button
+          class="page-back-btn"
+          data-back-for="galleryPage"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="gallery-intro">
+          <div class="section-kicker">ONE LAST LITTLE SURPRISE</div>
+          <h2>A few snapshots of <em>your magic.</em></h2>
+          <p>Tap any picture to see it a little closer. ♡</p>
+        </div>
+        <div class="gallery-heading">
+          <div>
+            <div class="section-kicker">THE LITTLE MEMORY WALL</div>
+            <h2>A few snapshots of <em>your magic.</em></h2>
+          </div>
+          <div class="gallery-tag">
+            10 little snapshots · one very special Madam ♡
+          </div>
+        </div>
+        <p class="gallery-help">
+          A little gallery of your moments — tap a picture to see it a little
+          closer. ♡
+        </p>
+        <div class="photo-gallery" id="photoGallery">
+          <figure class="memory-photo memory-tall">
+            <img
+              src="photos/dimple-01.jpg"
+              alt="Dimple in a pink jacket"
+              loading="lazy"
+            />
+            <figcaption>Madam, looking all serious and mysterious ♡</figcaption>
+          </figure>
+          <figure class="memory-photo memory-wide">
+            <img
+              src="photos/dimple-02.jpg"
+              alt="Dimple smiling at a desk"
+              loading="lazy"
+            />
+            <figcaption>That smile deserves its own holiday.</figcaption>
+          </figure>
+          <figure class="memory-photo">
+            <img
+              src="photos/dimple-03.jpg"
+              alt="Dimple outdoors"
+              loading="lazy"
+            />
+            <figcaption>Casually being the main character ✨</figcaption>
+          </figure>
+          <figure class="memory-photo memory-tall">
+            <img
+              src="photos/dimple-04.jpg"
+              alt="Dimple laughing on the phone"
+              loading="lazy"
+            />
+            <figcaption>Proof that your laugh is contagious.</figcaption>
+          </figure>
+          <figure class="memory-photo">
+            <img
+              src="photos/dimple-05.jpg"
+              alt="Dimple laughing in a pink top"
+              loading="lazy"
+            />
+            <figcaption>
+              One of my favourite kinds of pictures: you happy.
+            </figcaption>
+          </figure>
+          <figure class="memory-photo memory-wide">
+            <img
+              src="photos/dimple-06.jpg"
+              alt="Dimple standing outdoors"
+              loading="lazy"
+            />
+            <figcaption>Strong, lovely, and entirely yourself.</figcaption>
+          </figure>
+          <figure class="memory-photo">
+            <img
+              src="photos/dimple-07.jpg"
+              alt="A group memory with Dimple"
+              loading="lazy"
+            />
+            <figcaption>A little memory worth keeping.</figcaption>
+          </figure>
+          <figure class="memory-photo memory-tall">
+            <img
+              src="photos/dimple-08.jpg"
+              alt="Dimple at a shopping centre"
+              loading="lazy"
+            />
+            <figcaption>Madam on another side quest 🌷</figcaption>
+          </figure>
+          <figure class="memory-photo memory-wide">
+            <img
+              src="photos/dimple-09.jpg"
+              alt="Dimple smiling in a cream top"
+              loading="lazy"
+            />
+            <figcaption>The softest smile, honestly.</figcaption>
+          </figure>
+          <figure class="memory-photo">
+            <img
+              src="photos/dimple-10.jpg"
+              alt="Dimple standing among red columns"
+              loading="lazy"
+            />
+            <figcaption>
+              May your next chapter be as lovely as you are.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="memory-footer">
+          <span>MADE WITH A LITTLE EXTRA CARE</span><span>✿ ♡ ✧</span
+          ><span>ENDLESS GOOD THINGS AHEAD</span>
+        </div>
+        <div class="secret-message" id="secretMessage">
+          You found a tiny secret. Here's one more thing: you make ordinary
+          moments feel a little less ordinary. ♡
+        </div>
+      </section>
+
+      <section
+        class="gift-page section-shell hidden-section step-page"
+        id="giftPage"
+      >
+        <button
+          class="page-back-btn"
+          data-back-for="giftPage"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="gift-card">
+          <div class="section-kicker">A LITTLE SOMETHING FOR YOU</div>
+          <h2>Your gift is waiting<br /><em>to be opened…</em></h2>
+          <p class="gift-intro">Go on, Madam. Tap your present. 🎀</p>
+          <button
+            class="gift-icon-button"
+            id="openGiftBtn"
+            type="button"
+            aria-label="Open your gift"
+            aria-expanded="false"
+          >
+            <span class="gift-icon" aria-hidden="true">🎁</span>
+            <span class="gift-tap-hint">TAP TO OPEN</span>
+          </button>
+          <div class="gift-message" id="giftMessage" aria-live="polite" aria-atomic="true">
+            <p id="giftMessageFirst"></p>
+            <p id="giftMessageSecond"></p>
+          </div>
+          <button class="primary-btn gift-finally-btn" id="giftFinallyBtn" type="button" hidden>
+            Finally... <span>♡</span>
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="appreciation-page section-shell hidden-section step-page"
+        id="appreciationPage"
+      >
+        <button
+          class="page-back-btn"
+          data-back-for="appreciationPage"
+          type="button"
+          aria-label="Go to previous page"
+          hidden
+        >
+          <span aria-hidden="true">←</span> Back
+        </button>
+        <div class="appreciation-card">
+          <div class="appreciation-flower" aria-hidden="true">✿</div>
+          <div class="section-kicker">ONE LAST LITTLE NOTE</div>
+          <h2>And finally…<em>a little thank you.</em></h2>
+          <p>
+            Thank you for being you, Dimple — for the smiles, the little
+            moments, and the memories that make ordinary days feel special. I
+            hope this tiny birthday corner made you smile, even just a little.
+          </p>
+          <div class="appreciation-divider" aria-hidden="true">
+            ♡ &nbsp; ✦ &nbsp; ♡
+          </div>
+          <h3>Hope you liked it. ♡</h3>
+          <p class="appreciation-signoff">Made with care, just for you.</p>
+          <div class="goodnight-reveal" id="goodnightReveal" aria-live="polite">
+            <figure class="goodnight-photo">
+              <img src="goodnight-photo.jpeg" alt="A sleepy goodnight selfie" />
+              <figcaption id="goodnightCaption"></figcaption>
+              <figcaption
+                id="goodnightCaptionSecond"
+                class="goodnight-caption-second"
+                hidden
+              ></figcaption>
+            </figure>
+          </div>
+          <button
+            class="primary-btn appreciation-back-btn"
+            id="backToMemoriesBtn"
+            type="button"
+          >
+            Back to the memories <span>♡</span>
+          </button>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <span>made with ♡ and a slightly suspicious amount of effort</span
+        ><button id="secretButton" aria-label="Find a secret">✦</button>
+      </footer>
+    </main>
+    <div class="toast" id="toast" role="status"></div>
+    <canvas id="confettiCanvas"></canvas>
+
+    <audio id="birthdayAudio" src="selfiepulla.mp3" preload="auto" loop></audio>
+
+    <button
+      id="gallerySongFloat"
+      class="gallery-song-float"
+      type="button"
+      aria-pressed="false"
+      aria-label="Pause or resume birthday music"
+      hidden
+    >
+      <span class="gallery-song-icon">Ⅱ</span
+      ><span class="gallery-song-label">Pause song</span>
+    </button>
+    <div class="gallery-finale-dock" id="galleryFinaleDock" hidden>
+      <div class="gallery-finale-caption">
+        <span id="galleryFinaleCaption">A little more magic in…</span>
+        <span id="galleryFinaleCountdown" aria-live="polite">10s</span>
+      </div>
+      <div class="gallery-finale-track" aria-hidden="true">
+        <span class="gallery-finale-fill" id="galleryFinaleFill"></span>
+      </div>
+      <button
+        class="gallery-finale-button"
+        id="galleryFinaleButton"
+        type="button"
+      >
+        And Finally <span aria-hidden="true">♡</span>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
