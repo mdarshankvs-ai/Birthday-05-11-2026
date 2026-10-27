@@ -56,7 +56,7 @@ let birthdayLoopEnabled = false;
 
 const messages = {
   firstday: "🥰👀",
-  chaos: "Wish this was true, but your wrong!",
+  chaos: "Wish this was true, but you're wrong!",
   dance: "I am disappointed 😭",
 };
 
